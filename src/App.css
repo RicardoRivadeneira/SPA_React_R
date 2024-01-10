@@ -1,0 +1,46 @@
+a{
+  text-decoration: none;
+  font-size: 1em;
+  padding: 7px 10px 12px;
+  color: black;
+}
+
+.activado{
+  color: cadetblue;
+  background-color: brown;
+}
+
+nav{
+  background-color: silver;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+div{
+  text-align: center;
+}
+
+.juegos img{
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+div img{
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+.error{
+  font-size: 10em;
+  padding: 10px 20px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitulo{
+  font-size: 58px;
+  padding: 10px 20px;
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
