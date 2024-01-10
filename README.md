@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Tienda de Videojuegos - Proyecto en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación simple realizada en React, orientada al tema de videojuegos. Se ha utilizado React Router DOM para el enrutamiento y para desarrollar una Single Page Application (SPA).
 
-## Available Scripts
+## Requisitos Previos
 
-In the project directory, you can run:
+Antes de comenzar, asegúrate de tener instalado Node.js en tu sistema. Puedes descargar Node.js [aquí](https://nodejs.org/).
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para utilizar las funcionalidades de enrutamiento y navegación en una SPA, necesitarás instalar `react-router-dom`. Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install react-router-dom
+```
+## Descripción del Proyecto
 
-### `npm test`
+El objetivo principal de esta aplicación es simular una tienda de videojuegos. Aquí se detallan las características clave del proyecto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Funcionalidades Destacadas
 
-### `npm run build`
+- **Rutas Configuradas:** Se han establecido rutas para diferentes secciones de la aplicación utilizando React Router DOM. Esto facilita la navegación entre las diferentes vistas sin necesidad de recargar la página completa, ofreciendo así una experiencia de usuario más fluida.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **SPA (Single Page Application):** La aplicación ha sido desarrollada como una SPA, lo que implica que la navegación se realiza dentro de una única página web. Esto permite la actualización dinámica del contenido según la ruta seleccionada, sin recargar la página completa.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Diseño Atractivo:** Se ha dado especial énfasis en mantener un diseño atractivo y funcional, incluso en un proyecto de naturaleza simple.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Página de Error 404:** Se ha integrado una página de error 404 para manejar el acceso a rutas que no existen o contenido no disponible, proporcionando una experiencia de usuario más amigable en caso de rutas inválidas.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Ejecutar la Aplicación
+   ```bash
+   npm start
+  ```
+## Elaborado por:
+Ricardo Rivadeneira
